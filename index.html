@@ -1,0 +1,87 @@
+  <!-- 
+  LittleLink:
+  Version 2.5.0
+  -->
+  
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Dale Hitchenor</title>
+  <meta name="description" content="https://dale.hitchenor.com">
+  <meta name="author" content="Dale Hitchenor">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton-dark.css">
+  <link rel="stylesheet" href="css/brands.css">
+  <link rel="icon" type="image/png" href="images/dale-favicon.png">
+
+</head>
+
+<body>
+
+  <div id="vanta-bg" style="position: fixed; height:100%; width: 100%; overflow:hidden; z-index:-5; top: 0; background-color: #x4c4c60;"></div>
+
+  <div class="container">
+    <div class="row">
+      <div class="column" style="margin-top: 10%">
+
+        <img src="images/dale-avatar.svg" class="avatar" srcset="images/dale-avatar.svg" alt="Dale Hitchenor">
+
+        <h1 role="heading">Hi, my name is Dale</h1>
+
+        <p>&#129504; I'm interested in:</p>
+        <ul>
+            <li>Medicine</li>
+            <li>Engineering</li>
+            <li>Electronics</li>
+            <li>Open Software & Hardware</li>
+        </ul>
+        <p>&#128267; I'm currently studying Electrical Engineering<br/>
+        &#128187; I'm open to collaborate on open source projects<br/>
+        &#128137; Fun fact: I'm a fully qualified medical professional</p>
+        
+        <p>You can find me by following one of the links below.</p>
+
+        <!-- GitHub -->
+        <a class="button button-github" href="https://github.com/dhitchenor/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/github.svg" alt="GitHub Logo">GitHub</a><br>
+
+        <!-- Framagit -->
+        <a class="button button-gitlab" href="https://framagit.org/dhitchenor" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/gitlab.svg" alt="GitLab Logo">Framagit</a><br>
+
+        <!-- LinkedIn -->
+        <a class="button button-linked" href="https://www.linkedin.com/in/dale-hitchenor/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/linkedin.svg" alt="LinkedIn Logo">LinkedIn</a><br>
+
+        <!-- FeDisroot -->
+        <a class="button button-mastodon" href="https://fe.disroot.org/@dhitchenor" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/fedisroot.svg" alt="FeDisroot Logo">Akkoma (Fediverse)</a><br>
+
+        <p style="font-size: 9px;">Powered by <a href="https://github.com/sethcottle/littlelink">LittleLink</a> | Animation by <a href="https://github.com/tengbao/vanta">VantaJS</a></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/vendor/three.r119.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.globe.min.js"></script>
+  <script>
+    VANTA.GLOBE({
+      el: "#vanta-bg",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0xffcad9,
+      color2: 0x213d,
+      backgroundColor: 0x4e56
+    })
+  </script>
+
+</body>
+
+</html>
