@@ -1,0 +1,20 @@
+a {
+  text-decoration: none;
+}
+.list {
+  text-align: left;
+  margin-left: 57px;
+  margin-top: 0px;
+}
+.list-heading {
+  margin-bottom: 10px;
+}
+.list-gap {
+  margin-bottom: 10px;
+}
+.list-end {
+  margin-bottom: 45px;
+}
+.list-end-gap {
+  margin-bottom: 30px;
+}
